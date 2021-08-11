@@ -6,5 +6,9 @@
       "packages/*"
     ]
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "angular-app": "yarn workspace angular-app",
+    "repro": "yarn angular-app test"
+  }
 }
